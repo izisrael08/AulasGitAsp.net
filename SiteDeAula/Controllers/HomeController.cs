@@ -13,6 +13,7 @@ namespace SiteDeAula.Controllers
 
             home.Nome = "Israel Guedes";
             home.Email = "israelguedes008@gmail.com";
+            Console.WriteLine("Teste_git 01, Teste_git 02");
             //teste
             return View(home);
         }
