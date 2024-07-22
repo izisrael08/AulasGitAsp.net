@@ -1,21 +1,14 @@
+using ControleDeContatos.Models;
 using Microsoft.AspNetCore.Mvc;
-using SiteDeAula.Models;
 using System.Diagnostics;
 
-namespace SiteDeAula.Controllers
+namespace ControleDeContatos.Controllers
 {
     public class HomeController : Controller
     {
         public IActionResult Index()
         {
-            //preciso criar uma instancia para poder pegar os dados da home model
-            HomeModel home = new HomeModel();
-
-            home.Nome = "Israel Guedes";
-            home.Email = "israelguedes008@gmail.com";
-            
-            
-            return View(home);
+            return View();
         }
 
         public IActionResult Privacy()
