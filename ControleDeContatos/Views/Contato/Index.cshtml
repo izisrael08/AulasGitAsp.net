@@ -8,7 +8,7 @@
     <h1 class="Display-4">Listagem de Contatos</h1>
 
     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-        <a class="btn btn-primary" role="button">Adicionar um Novo Contato</a>
+        <a class="btn btn-primary" role="button" asp-controller="Contato" asp-action="Criar">Adicionar um Novo Contato</a>
     </div>
 
     <table class="table">
@@ -29,8 +29,8 @@
                 <td>(91) 90000-0000</td>
                 <td>
                     <div class="btn-group" role="group">
-                        <a role="button" class="btn btn-primary">Editar</a>
-                        <a role="button" class="btn btn-danger">Apagar</a>
+                        <a role="button" class="btn btn-primary" asp-controller="Contato" asp-action="Editar">Editar</a>
+                        <a role="button" class="btn btn-danger" asp-controller="Contato" asp-action="ApagarConfirmacao">Apagar</a>
                     </div>
                 </td>
             </tr>
@@ -41,8 +41,8 @@
                 <td>(91) 90000-0000</td>
                 <td>
                     <div class="btn-group" role="group">
-                        <a role="button" class="btn btn-primary">Editar</a>
-                        <a role="button" class="btn btn-danger">Apagar</a>
+                        <a role="button" class="btn btn-primary" asp-controller="Contato" asp-action="Editar">Editar</a>
+                        <a role="button" class="btn btn-danger" asp-controller="Contato" asp-action="ApagarConfirmacao">Apagar</a>
                     </div>
                 </td>
             </tr>
@@ -53,8 +53,8 @@
                 <td>(91) 90000-0000</td>
                 <td>
                     <div class="btn-group" role="group">
-                        <a role="button" class="btn btn-primary">Editar</a>
-                        <a role="button" class="btn btn-danger">Apagar</a>
+                        <a role="button" class="btn btn-primary" asp-controller="Contato" asp-action="Editar">Editar</a>
+                        <a role="button" class="btn btn-danger" asp-controller="Contato" asp-action="ApagarConfirmacao">Apagar</a>
                     </div>
                 </td>
             </tr>
