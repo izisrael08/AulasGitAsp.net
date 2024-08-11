@@ -1,5 +1,5 @@
 ﻿using ControleDeContatos.Models;
-using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore; //etnho que pesuisar o que é o EntityFrameworkCore
 
 namespace ControleDeContatos.Data
 {
